@@ -704,7 +704,9 @@ body.no-scroll {
 .cover-card {
   width: 100%;
   max-width: 440px;
-  background-color: var(--white);
+  background-color: rgba(255, 253, 247, 0.85); /* Semi-transparent white/ivory */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(184, 146, 63, 0.35);
   border-radius: 18px;
   padding: 55px 34px;
